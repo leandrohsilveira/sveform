@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "playground",
+      "problemMatcher": [],
+      "label": "npm: playground",
+      "detail": "node ./playground.js"
+    }
+  ]
+}

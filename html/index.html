@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <form name="user_form">
+      <fieldset>
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" required placeholder="Your name">
+      </fieldset>
+      <fieldset>
+        <label for="age">Age:</label>
+        <input id="age" name="age" type="text" data-model="num" data-digits="2" max="20" placeholder="Your age">
+      </fieldset>
+    </form>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
